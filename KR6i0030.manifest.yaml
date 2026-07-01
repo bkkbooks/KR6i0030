@@ -1,0 +1,103 @@
+canonical_identifier: bkk:krp/KR6i0030/v1
+canonical_location: https://kanripo.org/bkk/KR6i0030/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 五百羅漢尊號
+  identifiers:
+    alt_id:
+    - L157n1651
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/L/L157/L157n1651.xml
+    old_id: L157n1651
+  edition:
+    short: bkk
+editions:
+- short: 龍
+  label: 龍
+  source_xml_id: wit.orig
+- short: L
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0030_000.yaml, hash: 'sha256:9e117375df904b9f86f8842e114c64df6ed26b45a16d0bbdef7de6520e1eb4ad'}
+  - {seq: 1, filename: KR6i0030_001.yaml, hash: 'sha256:2562c135270633685c1c0619f2c420e2b0acc8490a5da6ca805989868445374a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0030_000.markers.yaml, hash: 'sha256:e5c7b7b8c68469f121760b40853b0f3dfc8bf5340aa964242cd1e63a3d090a01'}
+  - {seq: 1, role: markers, filename: assets/KR6i0030_001.markers.yaml, hash: 'sha256:6d9bf1ebbf6bf8c34c0f2da2d94c331716d0f9cf1c6d0cb958a5be74ce84e52d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6i0030_L_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 題羅漢尊號碑
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0030_L_001-juan-start
+    span:
+    - body
+    - 0
+    - 5479
+  label: 五百羅漢尊號
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0030_L_001-mulu-1
+    span:
+    - body
+    - 18
+    - 18
+  label: 五百羅漢尊號
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0030_L_001-mulu-2
+    span:
+    - body
+    - 18
+    - 18
+  label: 住世十八尊者
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0030_L_001-mulu-3
+    span:
+    - body
+    - 173
+    - 173
+  label: 石橋五百尊者
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0030_L_001-mulu-4
+    span:
+    - body
+    - 5275
+    - 5275
+  label: 後記
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0030_L_001-mulu-5
+    span:
+    - body
+    - 5421
+    - 5421
+  label: 音釋
+  type: mulu
+  level: 1
+hash: sha256:14ee5df20a843a190070c889d2f289b9ae67ef894bcf4a6d41032553c063d2de
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
