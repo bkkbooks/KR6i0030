@@ -19,17 +19,17 @@ metadata:
     short: L
 assets:
   parts:
-  - {seq: 0, filename: KR6i0030_000-L.yaml, hash: 'sha256:21348f25dfa5ce7d324c29c2bea834a58d3cf8b0bdcdadfadb4e30dc95b5cdf7'}
+  - {seq: 0, filename: KR6i0030_000-L.yaml, hash: 'sha256:5690c10e85525d9dafb44af001217fbfe3962d558cf4362b5d7a4d419d8768f2'}
   - {seq: 1, filename: KR6i0030_001-L.yaml, hash: 'sha256:2d9f90ea5de31b1f78ff214f185b0d89ecfbababb9289aa807e01ef310f0998f'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6i0030_000-L.markers.yaml, hash: 'sha256:5fe60a69e77742f363cf0c37612b21bdec35492e14c58652306b7703e4018c42'}
+  - {seq: 0, role: markers, filename: assets/KR6i0030_000-L.markers.yaml, hash: 'sha256:20dd222880f029b8e08c12b41c29556f2d074d6c5ee94d5d3d59bb78493aab4b'}
   - {seq: 1, role: markers, filename: assets/KR6i0030_001-L.markers.yaml, hash: 'sha256:04b658c13d9c97913276757b1ba372e8b75758c3917d97fa0ca633bbb66544bd'}
 table_of_contents:
 - ref:
     seq: 0
     marker_id: KR6i0030_L_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: 題羅漢尊號碑
@@ -95,4 +95,4 @@ table_of_contents:
   label: 音釋
   type: mulu
   level: 1
-hash: sha256:5f92963f2ac9e6fdd82e7aebbb95c230f5f414f924dbfbeb5702e1506e4d6289
+hash: sha256:52ea6662814b71cf926c8e654bd630d97b20b8ab23a3b5942a3bdf1bf8abf7c1
